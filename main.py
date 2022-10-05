@@ -59,7 +59,7 @@ print("\n\n\n\n")
 
 
 
-#EJERCICIO 3 y 4.- 
+#EJERCICIO 3 y 4.- Pedir un número al usuario es algo que ya llevamos haciendo un par de códigos por lo que no tiene mucha complejidad, lo único que debemos tener en cuenta es que se trata de un "float". Para la lista de números simplemente hacemos referencia a los variables y las metemos dentro de la lista. La función sum
 
 num1= float(input("Introduce el primer número: "))
 print("\n")
