@@ -28,12 +28,14 @@ print("\n\n\n")
 
 s = {"Mercedes", "Opel", "Volvo"}
 print(s)
+#print(s[1])Parecido a lo que pasa con las tuplas, los sets tampoco pueden modificarse a lo largo del código. 
 
 print("\n\n")
 
 dicc= {
   "Nombre" : "Jaime",
-  "Edad" : 17,
+  "Edad" : "17",
   "Ocupación" : "Estudiante"
 }
 print(dicc)
+print(dicc["Nombre"][0:5])
