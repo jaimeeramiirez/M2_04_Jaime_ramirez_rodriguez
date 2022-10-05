@@ -14,11 +14,11 @@ print(Lista)
 
 print("\n\n")
 
-Tupla = ("Yoda", "Obi-wan", "Luke", "Anakin")
+Tupla = ("Manzana", "pera", "platano", "naranja")
 print(Tupla)
 print("El penúltimo elemento de la tupla es:", Tupla[2])
 print(len(Tupla))
-#Tupla.append("R2D2).- Esta función da error ya que cuando estamos en tuplas, no podemos añadir más elementos; es una de las características de las duplas.
-#Tupla.remove("Obi-wan").- Pasa lo mismo que con añadir elementos.
+#Tupla.append("uva").- Esta función da error ya que cuando estamos en tuplas, no podemos añadir más elementos; es una de las características de las duplas.
+#Tupla.remove("naranja").- Pasa lo mismo que con añadir elementos.
 
 
