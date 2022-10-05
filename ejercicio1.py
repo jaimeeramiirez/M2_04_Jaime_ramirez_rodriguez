@@ -6,12 +6,11 @@ print("\n")
 Lista = ["Futbol", "Baloncesto", "Tenis", "Golf", "Balonmano"]
 print(Lista)
 print("El segundo elemento de la lista es :", Lista[1])
-Lista.remove("Baloncesto")
-print(Lista)
 print("El tamaño de la lista es de:", len(Lista))
 #A continuación, haremos una búsqueda del último elemento de la lista.
-print("El útlimo elemento de la lista es:", Lista[3])
+print("El útlimo elemento de la lista es:", Lista[4])
 Lista.append("Natación")
+Lista.remove("Baloncesto") #Eliminamos "baloncesto" de nuestra lista
 print(Lista)
 
 print("\n\n")
