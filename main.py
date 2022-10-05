@@ -26,7 +26,6 @@ print("\n\n\n\n")
 
 
 
-
 #EJERCICIO2.- El ejericio 2 tiene una estructura similar al 1, nos pide que creemos un set y un diccionario. Los set son un tipo de listas que no pueden modificarse a lo largo del código una vez creadas por lo que podremos averiguar su tamaño o imprimirlas pero nunca añadir, eliminar o cambiar sus elmentos. En el caso de los diccionarios, podremos introducir claves nuevas o eliminar claves ya establecidas en el diccionario.
 
 s = {"Mercedes", "Opel", "Volvo","Porsche", "Peugeot"}
@@ -54,3 +53,25 @@ print(dicc)
 print("\n")
 del(dicc["Nombre"]) #Eliminamos la clave nombre y su valor asociado
 print(dicc)
+
+
+print("\n\n\n\n")
+
+
+
+#EJERCICIO 3 y 4.- 
+
+num1= float(input("Introduce el primer número: "))
+print("\n")
+num2= float(input("Introduce el segundo número: "))
+print("\n")
+num3= float(input("Introduce el tercer número: "))
+print("\n")
+
+Listanum=[num1, num2, num3]
+print(Listanum)
+sumatorio=sum(Listanum)
+print("La suma de los elementos de la lista es: ",sumatorio)
+print("\n")
+Media=(sumatorio/(len(Listanum)))
+print("La media aritmética de los elementos de la lista es= ", Media)
