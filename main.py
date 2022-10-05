@@ -75,3 +75,15 @@ print("La suma de los elementos de la lista es: ",sumatorio)
 print("\n")
 Media=(sumatorio/(len(Listanum)))
 print("La media aritmética de los elementos de la lista es= ", Media)
+
+
+
+
+
+
+
+
+
+
+
+
