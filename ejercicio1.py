@@ -6,20 +6,19 @@ print("\n")
 Lista = ["Futbol", "Baloncesto", "Tenis", "Golf", "Balonmano"]
 print(Lista)
 print("El segundo elemento de la lista es :", Lista[1])
+Lista.remove("Baloncesto") #Eliminamos "baloncesto" de nuestra lista
 print("El tamaño de la lista es de:", len(Lista))
-#A continuación, haremos una búsqueda del último elemento de la lista.
 print("El útlimo elemento de la lista es:", Lista[4])
 Lista.append("Natación")
-Lista.remove("Baloncesto") #Eliminamos "baloncesto" de nuestra lista
 print(Lista)
 
 print("\n\n")
 
-Tupla = ("Manzana", "pera", "plátano", "naranja")
+Tupla = ("Yoda", "Obi-wan", "Luke", "Anakin")
 print(Tupla)
 print("El penúltimo elemento de la tupla es:", Tupla[2])
 print(len(Tupla))
-#Tupla.append("Uva").- Esta función da error ya que cuando estamos en tuplas, no podemos añadir más elementos; es una de las características de las duplas.
-#Tupla.remove("naranja").- Pasa lo mismo que con añadir elementos.
+#Tupla.append("R2D2).- Esta función da error ya que cuando estamos en tuplas, no podemos añadir más elementos; es una de las características de las duplas.
+#Tupla.remove("Obi-wan").- Pasa lo mismo que con añadir elementos.
 
 
