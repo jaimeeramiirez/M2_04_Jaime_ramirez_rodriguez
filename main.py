@@ -8,6 +8,8 @@ print ("El segundo elemento de la lista es :", Lista [1])
 Lista.remove("Baloncesto")
 print(Lista)
 print("El tamaño de la lista es de:",len(Lista))
+#A continuación, haremos una búsqueda del último elemento de la lista.
+print("El útlimo elemento de la lista es:", Lista[3])
 Lista.append("Natación")
 print(Lista)
 
@@ -18,5 +20,6 @@ print (Tupla)
 print("El penúltimo elemento de la tupla es:", Tupla[2])
 print(len(Tupla))
 #Tupla.append("Uva").- Esta función da error ya que cuando estamos en tuplas, no podemos añadir más elementos; es una de las características de las duplas.
+#Tupla.remove("naranja").- Pasa lo mismo que con añadir elementos.
 
 
